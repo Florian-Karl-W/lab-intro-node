@@ -6,7 +6,7 @@ class SortedList {
 
   add(item) {
     this.items.push(item);
-    this.items.sort((a, b) => a - b);
+    this.items.sort((a, z) => a - z);
     this.length = this.items.length;
   }
 
